@@ -15,7 +15,7 @@ def index():
 
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    server = pywsgi.WSGIServer(('0.0.0.0', 726), app)
+    server = pywsgi.WSGIServer(('0.0.0.0', 80), app)
     server.serve_forever()
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
