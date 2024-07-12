@@ -10,7 +10,7 @@ app = flask.Flask(__name__)
 
 @app.route("/index", methods=['GET'])
 def index():
-    return 'k8s-home部署test'
+    return '2024.07.12'
 
 
 # 按间距中的绿色按钮以运行脚本。
